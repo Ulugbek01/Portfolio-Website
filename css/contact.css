@@ -1,0 +1,138 @@
+.contact-header {
+  background: #8034c3;
+}
+
+.contact-header li a {
+  color: #fff;
+}
+
+.contact {
+  margin-top: 12.5rem;
+}
+
+.contact-title {
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Contact section styles */
+
+.contact > div {
+  display: inline-block;
+}
+
+.info-section {
+  margin-left: 1.87rem;
+  vertical-align: top;
+}
+
+.info-section i {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  margin-right: 0.62rem;
+}
+
+.phone-number a,
+.send-email a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #05364d;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.place-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #05364d;
+  font-size: 1rem;
+}
+
+.phone-number,
+.send-email,
+.place-name {
+  padding-bottom: 0.31rem;
+}
+
+.place-discription,
+.phone-number__operating-time,
+.email-discription {
+  color: #999999;
+}
+.contact-info__place > div,
+.contact-info_phone > div,
+.contact-send__email > div {
+  display: inline-block;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+textarea {
+  margin-bottom: 1.25rem;
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.81rem;
+  font-family: sans-serif;
+}
+input {
+  width: 31%;
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  height: 48px;
+  padding-left: 1.12rem;
+  font-size: 0.81rem;
+  background: transparent;
+}
+
+.input-subject {
+  display: block;
+  width: 65%;
+  margin: 2.5rem 0;
+}
+
+.enter-text {
+  margin-right: 1.87rem;
+}
+
+/* Media queriy */
+
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 90%;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .message-section textarea {
+    width: 100%;
+  }
+
+  .info-section {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .input-subject {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  /* Footer section */
+  .footer-navigation__items {
+    display: none;
+  }
+
+  .footer-navigation {
+    margin-bottom: -3rem;
+  }
+
+  .footer {
+    padding: 4rem;
+  }
+}
